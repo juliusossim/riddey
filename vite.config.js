@@ -1,14 +1,7 @@
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    plugins: [
-      vanillaExtractPlugin(),
-    ],
-    build: {
-      lib: {
-        entry: 'src/index.tsx',
-        formats: ['es']
-      }
-    }
-}); 
+  plugins: [vanillaExtractPlugin(), react()],
+});

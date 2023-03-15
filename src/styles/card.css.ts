@@ -76,7 +76,6 @@ export const mainTitle = style([
     fontSize: size.big,
     lineHeight: size.large,
     fontStyle: 'normal',
-    letterSpacing: 2,
   },
 ]);
 

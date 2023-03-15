@@ -45,7 +45,9 @@ const Card: React.FC = () => {
             />
           </svg>
         </figure>
-        <h5 className={mainTitle}>Upgrade to Riddey PRO and boost productivity!</h5>
+        <h5 className={mainTitle}>
+          Upgrade to Riddey PRO <br /> and boost productivity!
+        </h5>
         <summary className={cardDesc}>
           Pellentesque porttitor euismod ante, accumsan consequat purus!
         </summary>
